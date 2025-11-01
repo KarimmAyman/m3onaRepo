@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>منتجات معونه</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+
+      /* Click feedback */
+      .card:active {
+        transform: scale(0.98);
+        transition: transform 0.1s ease-in-out;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gradient-to-b from-sky-50 via-white to-sky-100 min-h-screen font-[Tajawal] text-gray-900">
+    <!-- Header -->
+    <header
+      class="flex justify-between items-center p-6 bg-white/90 backdrop-blur shadow-lg sticky top-0 z-50 border-b border-sky-200"
+    >
+      <div class="flex items-center gap-4">
+        <img src="logo.svg" alt="Logo" class="h-14 drop-shadow-md" />
+        <h1 class="text-3xl md:text-4xl font-extrabold text-sky-900 tracking-wide">
+          منتجات معونه
+        </h1>
+      </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="text-center mt-14 mb-12 px-6">
+      <h2 class="text-3xl md:text-4xl font-semibold text-sky-900 mb-3">
+        أشهى منتجات الدجاج من <span class="text-sky-700">معونه</span>
+      </h2>
+      <p class="text-gray-700 max-w-3xl mx-auto leading-relaxed text-lg">
+        استمتع بنكهات فريدة من منتجاتنا المقرمشة والطازجة، المصنوعة من أجود أنواع
+        الدجاج بعناية لتمنحك تجربة لذيذة لا تُنسى.
+      </p>
+    </section>
+
+    <!-- Products -->
+    <main
+      class="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 max-w-7xl mx-auto"
+    >
+      <!-- Donut Chicken Cards -->
+      <div
+        class="card bg-white rounded-3xl shadow-lg overflow-hidden border border-sky-100 hover:shadow-sky-400/40 transition-all transform hover:scale-105 hover:animate-[float_2s_ease-in-out_infinite] cursor-pointer"
+      >
+        <img src="aa.jpg" alt="دونات الدجاج" class="w-full h-56 object-cover" />
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold text-sky-900 mb-2">
+            دونات الدجاج المقلية
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            مقرمشة من الخارج وهشة من الداخل، مصنوعة من دجاج طازج متبل بتوابل
+            لذيذة. وجبة مثالية لمحبي الطعم الفريد.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-lg overflow-hidden border border-sky-100 hover:shadow-sky-400/40 transition-all transform hover:scale-105 hover:animate-[float_2s_ease-in-out_infinite] cursor-pointer"
+      >
+        <img src="aa.jpg" alt="دونات الدجاج" class="w-full h-56 object-cover" />
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold text-sky-900 mb-2">
+            دونات الدجاج المقلية
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            مقرمشة من الخارج وهشة من الداخل، مصنوعة من دجاج طازج متبل بتوابل
+            لذيذة. وجبة مثالية لمحبي الطعم الفريد.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-lg overflow-hidden border border-sky-100 hover:shadow-sky-400/40 transition-all transform hover:scale-105 hover:animate-[float_2s_ease-in-out_infinite] cursor-pointer"
+      >
+        <img src="aa.jpg" alt="دونات الدجاج" class="w-full h-56 object-cover" />
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold text-sky-900 mb-2">
+            دونات الدجاج المقلية
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            مقرمشة من الخارج وهشة من الداخل، مصنوعة من دجاج طازج متبل بتوابل
+            لذيذة. وجبة مثالية لمحبي الطعم الفريد.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-lg overflow-hidden border border-sky-100 hover:shadow-sky-400/40 transition-all transform hover:scale-105 hover:animate-[float_2s_ease-in-out_infinite] cursor-pointer"
+      >
+        <img src="aa.jpg" alt="دونات الدجاج" class="w-full h-56 object-cover" />
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold text-sky-900 mb-2">
+            دونات الدجاج المقلية
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            مقرمشة من الخارج وهشة من الداخل، مصنوعة من دجاج طازج متبل بتوابل
+            لذيذة. وجبة مثالية لمحبي الطعم الفريد.
+          </p>
+        </div>
+      </div>
+
+      <!-- Chicken Filet Cards -->
+      <div
+        class="card bg-white rounded-3xl shadow-lg overflow-hidden border border-sky-100 hover:shadow-sky-400/40 transition-all transform hover:scale-105 hover:animate-[float_2s_ease-in-out_infinite] cursor-pointer"
+      >
+        <img src="bb.jpg" alt="فيليه الدجاج" class="w-full h-56 object-cover" />
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold text-sky-900 mb-2">
+            فيليه الدجاج المقرمش
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            طراوة الدجاج من الداخل وقرمشة لذيذة من الخارج، مثالي لساندويتش سريع
+            أو وجبة شهية تُرضي كل الأذواق.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-lg overflow-hidden border border-sky-100 hover:shadow-sky-400/40 transition-all transform hover:scale-105 hover:animate-[float_2s_ease-in-out_infinite] cursor-pointer"
+      >
+        <img src="bb.jpg" alt="فيليه الدجاج" class="w-full h-56 object-cover" />
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold text-sky-900 mb-2">
+            فيليه الدجاج المقرمش
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            طراوة الدجاج من الداخل وقرمشة لذيذة من الخارج، مثالي لساندويتش سريع
+            أو وجبة شهية تُرضي كل الأذواق.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-lg overflow-hidden border border-sky-100 hover:shadow-sky-400/40 transition-all transform hover:scale-105 hover:animate-[float_2s_ease-in-out_infinite] cursor-pointer"
+      >
+        <img src="bb.jpg" alt="فيليه الدجاج" class="w-full h-56 object-cover" />
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold text-sky-900 mb-2">
+            فيليه الدجاج المقرمش
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            طراوة الدجاج من الداخل وقرمشة لذيذة من الخارج، مثالي لساندويتش سريع
+            أو وجبة شهية تُرضي كل الأذواق.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-lg overflow-hidden border border-sky-100 hover:shadow-sky-400/40 transition-all transform hover:scale-105 hover:animate-[float_2s_ease-in-out_infinite] cursor-pointer"
+      >
+        <img src="bb.jpg" alt="فيليه الدجاج" class="w-full h-56 object-cover" />
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold text-sky-900 mb-2">
+            فيليه الدجاج المقرمش
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            طراوة الدجاج من الداخل وقرمشة لذيذة من الخارج، مثالي لساندويتش سريع
+            أو وجبة شهية تُرضي كل الأذواق.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="text-center mt-20 py-6 bg-sky-900 text-sky-50 text-sm tracking-wide shadow-inner"
+    >
+      © 2025 <span class="font-semibold">معونه للتجارة</span> - جميع الحقوق محفوظة
+    </footer>
+  </body>
+</html>
